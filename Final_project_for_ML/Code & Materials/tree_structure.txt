@@ -1,0 +1,82 @@
+|--- marital-status <= 0.50
+|   |--- education-num <= 12.50
+|   |   |--- capital-gain <= 0.05
+|   |   |   |--- education <= 7.50
+|   |   |   |   |--- hours-per-week <= 0.43
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- hours-per-week >  0.43
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- education >  7.50
+|   |   |   |   |--- capital-loss <= 0.42
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- capital-loss >  0.42
+|   |   |   |   |   |--- class: 1
+|   |   |--- capital-gain >  0.05
+|   |   |   |--- age <= 0.60
+|   |   |   |   |--- native-country <= 10.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- native-country >  10.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- age >  0.60
+|   |   |   |   |--- capital-gain <= 0.11
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- capital-gain >  0.11
+|   |   |   |   |   |--- class: 1
+|   |--- education-num >  12.50
+|   |   |--- capital-gain <= 0.05
+|   |   |   |--- capital-loss <= 0.41
+|   |   |   |   |--- occupation <= 4.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- occupation >  4.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- capital-loss >  0.41
+|   |   |   |   |--- capital-loss <= 0.46
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- capital-loss >  0.46
+|   |   |   |   |   |--- class: 1
+|   |   |--- capital-gain >  0.05
+|   |   |   |--- age <= 0.62
+|   |   |   |   |--- class: 1
+|   |   |   |--- age >  0.62
+|   |   |   |   |--- hours-per-week <= 0.49
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- hours-per-week >  0.49
+|   |   |   |   |   |--- class: 1
+|--- marital-status >  0.50
+|   |--- capital-gain <= 0.07
+|   |   |--- education-num <= 12.50
+|   |   |   |--- age <= 0.16
+|   |   |   |   |--- hours-per-week <= 0.44
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- hours-per-week >  0.44
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- age >  0.16
+|   |   |   |   |--- hours-per-week <= 0.41
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- hours-per-week >  0.41
+|   |   |   |   |   |--- class: 0
+|   |   |--- education-num >  12.50
+|   |   |   |--- age <= 0.14
+|   |   |   |   |--- capital-loss <= 0.51
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- capital-loss >  0.51
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- age >  0.14
+|   |   |   |   |--- hours-per-week <= 0.42
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- hours-per-week >  0.42
+|   |   |   |   |   |--- class: 0
+|   |--- capital-gain >  0.07
+|   |   |--- capital-gain <= 0.08
+|   |   |   |--- capital-gain <= 0.07
+|   |   |   |   |--- class: 1
+|   |   |   |--- capital-gain >  0.07
+|   |   |   |   |--- class: 0
+|   |   |--- capital-gain >  0.08
+|   |   |   |--- age <= 0.04
+|   |   |   |   |--- class: 0
+|   |   |   |--- age >  0.04
+|   |   |   |   |--- capital-gain <= 0.31
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- capital-gain >  0.31
+|   |   |   |   |   |--- class: 1
